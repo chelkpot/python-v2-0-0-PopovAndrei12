@@ -2,11 +2,11 @@
 
 def solve():
 # Ниже пишите решение задачи
-    X, Y, Z = map(int, input("Введите 3 числа с пробелами: ").split())
-    pencil_price = 3
-    pen_price = pencil_price + 2
-    marker_price = pen_price + 7
-    total_cost = X * pencil_price + Y * pen_price + Z * marker_price
+    x, y, z = map(int,input().split())
+    price_pencil = 3
+    price_pen = price_pencil + 2
+    price_marker = price_pen + 7
+    total_cost = x * price_pencil + y * price_pen + z * price_marker
     print(total_cost)
    
 
